@@ -40,5 +40,13 @@ module NewlApi
     #config.middleware.use ActionDispatch::Cookies
     #config.middleware.use ActionDispatch::Session::CookieStore
 
+    if Rails.env.production?
+      config.complete_url = "http://railsangularapp.herokuapp.com"
+    elsif Rails.env.development?
+      config.complete_url = "http://localhost:3000"
+    else
+      config.complete_url = "http://localhost:3000"
+    end 
+
   end
 end

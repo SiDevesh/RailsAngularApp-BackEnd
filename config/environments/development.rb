@@ -40,6 +40,8 @@ Rails.application.configure do
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
 
+  # Enable serving of images, stylesheets, and JavaScripts from an asset server.
+  config.action_controller.asset_host =  Rails.application.config.complete_url
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true

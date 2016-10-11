@@ -37,6 +37,9 @@ Rails.application.configure do
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
 
+  # Enable serving of images, stylesheets, and JavaScripts from an asset server.
+  config.action_controller.asset_host =  Rails.application.config.complete_url
+
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end

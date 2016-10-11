@@ -21,8 +21,14 @@ gem 'puma', '~> 3.0'
 # gem 'rack-cors'
   gem 'rack-cors', :require => 'rack/cors'
 
+# gem 'active_model_serializers', '~> 0.10.0'
+
   gem 'devise_token_auth'
   #gem 'omniauth'
+  gem 'carrierwave'
+  gem 'mini_magick'
+  #gem 'fog'
+  gem "fog-aws"
   #gem 'omniauth-google-oauth2'
   #gem 'omniauth-facebook'
 group :development, :test do
