@@ -1,24 +1,5 @@
-# README
+# RailsAngularApp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is the API backend of a sample app running on Rails 5 --api mode.
+This has full authentication system, and users SHOW and INDEX actions.
+I made this to be used as a starting point for any Rails API I am designing.
